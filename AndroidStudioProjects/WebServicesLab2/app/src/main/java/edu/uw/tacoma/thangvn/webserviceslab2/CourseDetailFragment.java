@@ -53,6 +53,9 @@ public class CourseDetailFragment extends Fragment {
         if (args != null) {
             // Set article based on argument passed in
             updateView((Course) args.getSerializable(COURSE_ITEM_SELECTED));
+//        } else {
+//            // Set article based on saved instance state defined during onCreateView
+//            updateView(CourseContent.ITEMS.get(0));
         }
     }
 
